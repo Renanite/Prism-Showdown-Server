@@ -19,7 +19,7 @@ exports.BattleItems = {
 		onModifyAtk(atk) {
 			return this.chainModify(1.5);
 		},
-		onModifyAccuracy(accuracy) {
+		onModifyEvasion(evasion) {
 			return this.chainModify(0.75);
 		},
 	},
