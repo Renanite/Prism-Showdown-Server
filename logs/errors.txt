@@ -1303,3 +1303,347 @@ Additional information:
   formatid = gen5prism
   team = Varaneous|||naljofury|lavapool||,4,,,,|||||]Umbreon||||voidsphere||,4,,,,||,0,,,,|||
 
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at StreamProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:214:16)
+    at ChildProcess.StreamProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:175:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at StreamProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:214:16)
+    at ChildProcess.StreamProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:175:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at StreamProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:214:16)
+    at ChildProcess.StreamProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:175:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at StreamProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:214:16)
+    at ChildProcess.StreamProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:175:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error: Worker 1 abruptly died with code 3221225786 and signal null
+    at EventEmitter.cluster.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\server\sockets.js:90:21)
+    at EventEmitter.emit (events.js:189:13)
+    at EventEmitter.emit (domain.js:441:20)
+    at ChildProcess.worker.process.once (internal/cluster/master.js:193:13)
+    at Object.onceWrapper (events.js:277:13)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at StreamProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:214:16)
+    at ChildProcess.StreamProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:175:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at StreamProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:214:16)
+    at ChildProcess.StreamProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:175:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at StreamProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:214:16)
+    at ChildProcess.StreamProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:175:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at StreamProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:214:16)
+    at ChildProcess.StreamProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:175:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error: Worker 1 abruptly died with code 3221225786 and signal null
+    at EventEmitter.cluster.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\server\sockets.js:90:21)
+    at EventEmitter.emit (events.js:189:13)
+    at EventEmitter.emit (domain.js:441:20)
+    at ChildProcess.worker.process.once (internal/cluster/master.js:193:13)
+    at Object.onceWrapper (events.js:277:13)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)

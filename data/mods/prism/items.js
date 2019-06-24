@@ -13,6 +13,16 @@ exports.BattleItems = {
 		inherit: true,
 		onStart: function () { },
 	},
+	"waterring": {
+		id: "waterring",
+		name: "Water Ring",
+		onModifyAtk(atk) {
+			return this.chainModify(1.5);
+		},
+		onModifyAccuracy(accuracy) {
+			return this.chainModify(0.75);
+		},
+	},
 	"choicescarf": {
 		inherit: true,
 		onStart: function () { },
