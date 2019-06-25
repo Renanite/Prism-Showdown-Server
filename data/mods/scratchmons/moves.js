@@ -1,3 +1,7 @@
+'use strict';
+
+/**@type {{[k: string]: MoveData}} */
+let BattleMovedex = {
 "oilsling": {
 		num: 189,
 		accuracy: 100,
