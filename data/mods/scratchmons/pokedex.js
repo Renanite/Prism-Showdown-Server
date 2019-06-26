@@ -10,6 +10,14 @@ let BattlePokedex = {
 		baseStats: {hp: 110, atk: 100, def: 100, spa: 150, spd: 100, spe: 120},
 		abilities: {0: "Levitate", H: "Mineral Composition"},
 	},
+	alluminavian: {
+		num: 811,
+		species: "Alluminavian",
+		types: ["Steel", "Flying"],
+		gender: "N",
+		baseStats: {hp: 110, atk: 130, def: 120, spa: 400, spd: 100, spe: 100},
+		abilities: {0: "Thick Fat", H: "Volt Absorb"},
+	},
 };
 
 exports.BattlePokedex = BattlePokedex;
