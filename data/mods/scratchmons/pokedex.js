@@ -15,7 +15,7 @@ let BattlePokedex = {
 		species: "Alluminavian",
 		types: ["Steel", "Flying"],
 		gender: "N",
-		baseStats: {hp: 110, atk: 130, def: 120, spa: 400, spd: 100, spe: 100},
+		baseStats: {hp: 110, atk: 130, def: 120, spa: 40, spd: 100, spe: 100},
 		abilities: {0: "Thick Fat", H: "Volt Absorb"},
 	},
 };

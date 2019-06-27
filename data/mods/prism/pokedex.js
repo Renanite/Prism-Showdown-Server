@@ -3,7 +3,6 @@
 exports.BattlePokedex = {
 	gengar: {
 		inherit: true,
-		baseStats: {hp: 95, atk: 65, def: 65, spa: 110, spd: 130, spe: 60},
 		types: ["Ghost", "Gas"],
 	},
 	haunter: {
