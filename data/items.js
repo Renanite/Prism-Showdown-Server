@@ -16,6 +16,16 @@ let BattleItems = {
 		gen: 6,
 		desc: "If held by an Abomasnow, this item allows it to Mega Evolve in battle.",
 	},
+	"waterring": {
+		id: "waterring",
+		name: "Water Ring",
+		onModifyAtk(atk) {
+			return this.chainModify(1.5);
+		},
+		onModifyEvasion(evasion) {
+			return this.chainModify(0.75);
+		},
+	},
 	"absolite": {
 		id: "absolite",
 		name: "Absolite",

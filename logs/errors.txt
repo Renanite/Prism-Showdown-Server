@@ -1833,3 +1833,87 @@ Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
     at ChildProcess.EventEmitter.emit (domain.js:441:20)
     at finish (internal/child_process.js:805:14)
     at process._tickCallback (internal/process/next_tick.js:61:11)
+
+C:\Users\Swanton\Downloads\Pokemon-Showdown\data\mods\prism\items.js:22
+		onModifyAtk(atk) {
+		^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+Additional information:
+  formatid = gen5prism
+  team = Garchomp||waterring||earthquake||,4,,,,|||||
+
+
+C:\Users\Swanton\Downloads\Pokemon-Showdown\data\mods\prism\items.js:28
+		onStart: function () { },
+		^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+Additional information:
+  formatid = gen5prism
+  team = Garchomp||waterring||earthquake||,4,,,,|||||
+
+
+C:\Users\Swanton\Downloads\Pokemon-Showdown\data\mods\prism\items.js:20
+			onModifyAtk(atk) {
+			                 ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+Additional information:
+  formatid = gen5prism
+  team = Garchomp||waterring||earthquake||,4,,,,|||||
+
+
+C:\Users\Swanton\Downloads\Pokemon-Showdown\data\mods\prism\items.js:23
+			this.boost{(atk: 1)};
+			          ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+Additional information:
+  formatid = gen5prism
+  team = Garchomp||waterring||earthquake||,4,,,,|||||
+
