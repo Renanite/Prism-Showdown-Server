@@ -1807,8 +1807,8 @@ Chat.getDataMoveHTML = function (move) {
 	buf += `<span class="col movenamecol"><a href="https://pokemonshowdown.com/dex/moves/${move.id}">${move.name}</a></span> `;
 	// encoding is important for the ??? type icon
 	const encodedMoveType = encodeURIComponent(move.type);
-	buf += `<span class="col typecol"><img src="//play.pokemonshowdown.com/sprites/types/${encodedMoveType}.png" alt="${move.type}" width="32" height="14">`;
-	buf += `<img src="//play.pokemonshowdown.com/sprites/categories/${move.category}.png" alt="${move.category}" width="32" height="14"></span> `;
+	buf += `<span class="col typecol"><img src="//raw.githubusercontent.com/petuuuhhh/Prism-Assets/master/sprites/types/${encodedMoveType}.png" alt="${move.type}" width="32" height="14">`;
+	buf += `<img src="//raw.githubusercontent.com/petuuuhhh/Prism-Assets/master/sprites/categories/${move.category}.png" alt="${move.category}" width="32" height="14"></span> `;
 	if (move.basePower) buf += `<span class="col labelcol"><em>Power</em><br>${typeof move.basePower === 'number' ? move.basePower : '—'}</span> `;
 	buf += `<span class="col widelabelcol"><em>Accuracy</em><br>${typeof move.accuracy === 'number' ? (move.accuracy + '%') : '—'}</span> `;
 	const basePP = move.pp || 1;
