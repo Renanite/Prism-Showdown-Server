@@ -1927,3 +1927,59 @@ Error: bind EADDRINUSE 0.0.0.0:8000
     at process.EventEmitter.emit (domain.js:441:20)
     at emit (internal/child_process.js:820:12)
     at process._tickCallback (internal/process/next_tick.js:63:19)
+
+Error: ENOENT: no such file or directory, rename 'C:\Users\Swanton\Downloads\Pokemon-Showdown\config\chat-plugins\spotlights.json.NEW' -> 'C:\Users\Swanton\Downloads\Pokemon-Showdown\config\chat-plugins\spotlights.json'
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at StreamProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:214:16)
+    at ChildProcess.StreamProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:175:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pokemon-Showdown\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
