@@ -13,12 +13,8 @@ exports.BattleMovedex = {
         pp: 25,
         priority: 0,
         flags: {protect: 1, mirror: 1},
-		onModifyMove(move) {
-			if (!move.ignoreImmunity) move.ignoreImmunity = {};
-			if (move.ignoreImmunity !== true) {
-				move.ignoreImmunity['Steel'] = true;
-			}
-		},
+		onNegateImmunity(pokemon, type) {
+				if (pokemon.hasType('Steel') && ['Poison'].includes(type)) return false;
         onEffectiveness: function (typeMod, type) {
             if (type === 'Steel') return 0;
         },
