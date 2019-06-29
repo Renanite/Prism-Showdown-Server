@@ -1917,3 +1917,13 @@ Additional information:
   formatid = gen5prism
   team = Garchomp||waterring||earthquake||,4,,,,|||||
 
+
+Error: bind EADDRINUSE 0.0.0.0:8000
+    at listenOnMasterHandle (net.js:1337:16)
+    at shared (internal/cluster/child.js:120:3)
+    at Worker.send (internal/cluster/child.js:91:7)
+    at process.onInternalMessage (internal/cluster/utils.js:45:8)
+    at process.emit (events.js:194:15)
+    at process.EventEmitter.emit (domain.js:441:20)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)

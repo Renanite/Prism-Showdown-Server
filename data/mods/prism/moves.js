@@ -15,6 +15,7 @@ exports.BattleMovedex = {
         flags: {protect: 1, mirror: 1},
 		onNegateImmunity(pokemon, type) {
 				if (pokemon.hasType('Steel') && ['Poison'].includes(type)) return false;
+		},
         onEffectiveness: function (typeMod, type) {
             if (type === 'Steel') return 0;
         },
