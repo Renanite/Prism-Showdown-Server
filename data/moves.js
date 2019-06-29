@@ -5979,6 +5979,32 @@ let BattleMovedex = {
 		zMovePower: 140,
 		contestType: "Beautiful",
 	},
+	"steeleater": {
+        accuracy: 95,
+        basePower: 65,
+        category: "Physical",
+        desc: "This move's type effectiveness against Steel is changed to be neutral no matter what this move's type is.",
+        shortDesc: "Hits Steel-type Pokemon for neutral damage..",
+        id: "steeleater",
+        isViable: true,
+        name: "Steel-Eater",
+        pp: 25,
+        priority: 0,
+        flags: {protect: 1, mirror: 1},
+		onModifyMove(move) {
+			if (!move.ignoreImmunity) move.ignoreImmunity = {};
+			if (move.ignoreImmunity !== true) {
+				move.ignoreImmunity['Steel'] = true;
+			}
+		},
+        onEffectiveness: function (typeMod, type) {
+            if (type === 'Steel') return 0;
+        },
+        target: "normal",
+        type: "Poison",
+        zMovePower: 0,
+        contestType: "Beautiful",
+    },
 	"boil": {
 		accuracy: 100,
         basePower: 75,
