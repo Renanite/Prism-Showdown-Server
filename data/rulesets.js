@@ -816,20 +816,6 @@ let BattleFormats = {
 			return -typeMod;
 		},
 	},
-	boil: {
-		effectType: 'Rule',
-		name: 'Boil',
-		desc: "Enables Boil.",
-		onBegin() {
-			this.add('rule', 'Boil: Enable Boil');
-		},
-		onEffectiveness(typeMod, target, type, move) {
-			// The effectiveness of Freeze Dry on Water isn't reverted
-			if (move && move.id === 'boil' && type === 'Water') return;
-			if (move && !this.getImmunity(move, type)) return 1;
-			return -typeMod;
-		},
-	},
 	ignoreillegalabilities: {
 		effectType: 'ValidatorRule',
 		name: 'Ignore Illegal Abilities',
