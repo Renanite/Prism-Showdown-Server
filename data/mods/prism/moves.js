@@ -417,7 +417,7 @@ exports.BattleMovedex = {
 				if (target.hasType('Ground')) return 0;
 				}
 			},
-			ignoreImmunity: {'Ground': true},
+			ignoreImmunity: {'Electric': true},
             secondary: false,
             target: "normal",
             type: "Electric",
