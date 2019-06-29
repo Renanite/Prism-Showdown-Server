@@ -2,7 +2,6 @@
 
 exports.BattleMovedex = {
 	"steeleater": {
-		num: 573,
 		accuracy: 95,
 		basePower: 65,
 		category: "Physical",
