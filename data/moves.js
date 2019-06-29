@@ -5979,6 +5979,32 @@ let BattleMovedex = {
 		zMovePower: 140,
 		contestType: "Beautiful",
 	},
+	crystalbolt: {
+        accuracy: 100,
+            basePower: 70,
+            category: "Special",
+            desc: "This move does neutral damage to Ground types.",
+            shortDesc: "Damages Ground types",
+            id: "crystalbolt",
+            name: "Crystal Bolt",
+            pp: 20,
+            priority: 0,
+            flags: {protect: 1, mirror: 1},
+            onEffectiveness: function (typeMod, type, move) {
+			if (move.type !== 'Electric') return;
+			let target = this.activeTarget;
+			if (!target) return; // avoid crashing when called from a chat plugin
+			// ignore effectiveness if the target is Steel type and immune to Poison
+			if (!target.runImmunity('Electric')) {
+				if (target.hasType('Ground')) return 0;
+				}
+			},
+			ignoreImmunity: {'Ground': true},
+            secondary: false,
+            target: "normal",
+            type: "Electric",
+            contestType: "Clever",
+        },
 	"steeleater": {
 		accuracy: 95,
 		basePower: 65,

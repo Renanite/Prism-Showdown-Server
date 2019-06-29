@@ -408,7 +408,16 @@ exports.BattleMovedex = {
             pp: 20,
             priority: 0,
             flags: {protect: 1, mirror: 1},
-            ignoreImmunity: {'Electric': true},
+            onEffectiveness: function (typeMod, type, move) {
+			if (move.type !== 'Electric') return;
+			let target = this.activeTarget;
+			if (!target) return; // avoid crashing when called from a chat plugin
+			// ignore effectiveness if the target is Steel type and immune to Poison
+			if (!target.runImmunity('Electric')) {
+				if (target.hasType('Ground')) return 0;
+				}
+			},
+			ignoreImmunity: {'Ground': true},
             secondary: false,
             target: "normal",
             type: "Electric",
