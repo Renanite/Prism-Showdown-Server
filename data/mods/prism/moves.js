@@ -28,6 +28,7 @@ exports.BattleMovedex = {
 		type: "Poison",
 		zMovePower: 0,
 		contestType: "Beautiful",
+	},
 	"mustardgas": {
         num: 503,
         accuracy: 100,

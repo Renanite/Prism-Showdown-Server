@@ -6006,6 +6006,7 @@ let BattleMovedex = {
 		type: "Poison",
 		zMovePower: 0,
 		contestType: "Beautiful",
+	},
 	"boil": {
 		accuracy: 100,
         basePower: 75,
