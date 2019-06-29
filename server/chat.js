@@ -1753,7 +1753,7 @@ Chat.getDataPokemonHTML = function (template, gen = 7, tier = '') {
 	buf += '<span class="col typecol">';
 	if (template.types) {
 		for (const type of template.types) {
-			buf += `<img src="raw.githubusercontent.com/petuuuhhh/Prism-Assets/master/types/${type}.png" alt="${type}" height="14" width="32">`;
+			buf += `<img src="//raw.githubusercontent.com/petuuuhhh/Prism-Assets/master/sprites/types/${type}.png" alt="${type}" height="14" width="32">`;
 		}
 	}
 	buf += '</span> ';
