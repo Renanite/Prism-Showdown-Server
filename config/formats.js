@@ -1379,13 +1379,13 @@ let Formats = [
 		banlist: ['Uber'],
 	},
 	{
-		name: "[Gen 2] OU Updated",
+		name: "[Gen 2] Crystal Clear",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3556533/">GSC OU Viability Ranking</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3650478/#post-8133788">GSC Sample Teams</a>`,
 		],
 
-		mod: 'gen2updated',
+		mod: 'crystalclear',
 		ruleset: ['Pokemon', 'Standard'],
 		banlist: ['Uber'],
 	},
