@@ -123,7 +123,6 @@ exports.BattlePokedex = {
 		eggGroups: ["None"]
 	},
 	varaneous : {
-		num: 600,
 		species: "Varaneous",
 		types: ["Fire", "Water"],
 		genderRatio: {M: 0, F: 0},
