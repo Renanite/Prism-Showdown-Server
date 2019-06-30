@@ -70,7 +70,7 @@ exports.BattlePokedex = {
 		types: ["Fairy"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 95, atk: 65, def: 65, spa: 110, spd: 130, spe: 60},
-		abilities: {0: "Cute Charm", 1: "Pixilate"},
+		abilities: {0: "Cute Charm", 1: "Cute Charm"},
 		heightm: 1,
 		weightkg: 23.5,
 		color: "Pink",
