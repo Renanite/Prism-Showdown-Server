@@ -178,17 +178,6 @@ let Formats = [
 		banlist: ['Illegal', 'Unreleased'],
 	},
 	{
-		name: "[Gen 7] Scratchmons",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3587441/">Anything Goes Metagame Discussion</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3591711/">Anything Goes Viability Rankings</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3646736/">Anything Goes Sample Teams</a>`,
-		],
-
-		mod: 'scratchmons',
-		ruleset: ['Pokemon', 'Endless Battle Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod'],
-	},
-	{
 		name: "[Gen 7] 1v1",
 		desc: `Bring three Pok&eacute;mon to Team Preview and choose one to battle.`,
 		threads: [
@@ -1409,7 +1398,7 @@ let Formats = [
 
 		mod: 'gen2',
 		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber', 'Curse', 'Swords Dance', 'Amnesia', 'Barrier', 'Light Screen', 'Reflect', 'Sharpen'],
+		banlist: ['Uber', 'Curse', 'Swords Dance', 'Amnesia', 'Barrier', 'Light Screen', 'Reflect', 'Sharpen', 'Defense Curl', 'Belly Drum'],
 	},
 	{
 		name: "[Gen 2] No Legendaries",

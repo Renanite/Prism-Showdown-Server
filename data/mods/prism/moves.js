@@ -1,143 +1,6 @@
 'use strict';
 
 exports.BattleMovedex = {
-	"steeleater": {
-		accuracy: 95,
-		basePower: 65,
-		category: "Physical",
-		desc: "This move's type effectiveness against Steel is changed to be neutral no matter what this move's type is.",
-		shortDesc: "Hits Steel-type Pokemon for neutral damage..",
-		id: "steeleater",
-		isViable: true,
-		name: "Steel-Eater",
-		pp: 25,
-		priority: 0,
-		flags: {protect: 1, mirror: 1},
-		onEffectiveness: function (typeMod, type, move) {
-			if (move.type !== 'Poison') return;
-			let target = this.activeTarget;
-			if (!target) return; // avoid crashing when called from a chat plugin
-			// ignore effectiveness if the target is Steel type and immune to Poison
-			if (!target.runImmunity('Poison')) {
-				if (target.hasType('Steel')) return 0;
-			}
-		},
-		ignoreImmunity: {'Poison': true},
-		target: "normal",
-		type: "Poison",
-		zMovePower: 0,
-		contestType: "Beautiful",
-	},
-	"mustardgas": {
-        num: 503,
-        accuracy: 100,
-        basePower: 90,
-        category: "Physical",
-        desc: "Has a 30% chance to burn the target.",
-        shortDesc: "30% chance to burn the target.",
-        id: "mustardgas",
-        isViable: true,
-        name: "Mustard Gas",
-        pp: 10,
-        priority: 0,
-        flags: {protect: 1, mirror: 1},
-        secondary: {
-            chance: 30,
-            status: 'brn',
-        },
-        target: "normal",
-        type: "Gas",
-        zMovePower: 0,
-        contestType: "Tough",
-    },
-    "sarin": {
-        num: 503,
-        accuracy: 70,
-        basePower: 110,
-        category: "Physical",
-        desc: "Has a 30% chance to paralyze the target.",
-        shortDesc: "30% chance to paralyze the target.",
-        id: "sarin",
-        isViable: true,
-        name: "Sarin",
-        pp: 10,
-        priority: 0,
-        flags: {protect: 1, mirror: 1},
-        secondary: {
-            chance: 30,
-            status: 'par',
-        },
-        target: "normal",
-        type: "Gas",
-        zMovePower: 0,
-        contestType: "Tough",
-    },
-"laughinggas": {
-        num: 503,
-        accuracy: 100,
-        basePower: 50,
-        category: "Special",
-        desc: "100% chance to lower the targets Attack and Special Attack by 1 stage.",
-        shortDesc: "Lower's the targets Atk and Spa by 1 stage.",
-        id: "laughinggas",
-        isViable: true,
-        name: "Laughing Gas",
-        pp: 20,
-        priority: 0,
-        flags: {protect: 1, mirror: 1},
-        secondary: {
-            chance: 100,
-            boosts: {
-                atk: -1,
-                spa: -1,
-            },
-        },
-        target: "normal",
-        type: "Gas",
-        zMovePower: 0,
-        contestType: "Tough",
-    },
-    "lewisite": {
-        num: 503,
-        accuracy: 100,
-        basePower: 90,
-        category: "Special",
-        desc: "40% chance to lower the target's Defense by 1 stage.",
-        shortDesc: "40% chance to lower the target's Defense by 1 stage.",
-        id: "lewisite",
-        isViable: true,
-        name: "Lewisite",
-        pp: 10,
-        priority: 0,
-        flags: {protect: 1, mirror: 1},
-        secondary: {
-            chance: 40,
-            def: -1,
-        },
-        target: "normal",
-        type: "Gas",
-        zMovePower: 0,
-        contestType: "Tough",
-    },
-	"ghosthammer": {
-        num: 421,
-        accuracy: 100,
-        basePower: 85,
-        category: "Physical",
-        desc: "No additional effect.",
-        shortDesc: "No additional effect.",
-        id: "ghosthammer",
-        isViable: true,
-        name: "Ghost Hammer",
-        pp: 15,
-        priority: 0,
-        flags: {contact: 1, protect: 1, mirror: 1},
-        secondary: null,
-        target: "normal",
-        type: "Ghost",
-        zMovePower: 0,
-        contestType: "Cool",
-    },
 	acupressure: {
 		inherit: true,
 		desc: "Raises a random stat by 2 stages as long as the stat is not already at stage 6. The user can choose to use this move on itself or an ally. Fails if no stat stage can be raised or if the user or ally has a substitute.",
@@ -397,32 +260,6 @@ exports.BattleMovedex = {
 			return Math.floor(target.hp * 120 / target.maxhp) + 1;
 		},
 	},
-	crystalbolt: {
-        accuracy: 100,
-            basePower: 70,
-            category: "Special",
-            desc: "This move does neutral damage to Ground types.",
-            shortDesc: "Damages Ground types",
-            id: "crystalbolt",
-            name: "Crystal Bolt",
-            pp: 20,
-            priority: 0,
-            flags: {protect: 1, mirror: 1},
-            onEffectiveness: function (typeMod, type, move) {
-			if (move.type !== 'Electric') return;
-			let target = this.activeTarget;
-			if (!target) return; // avoid crashing when called from a chat plugin
-			// ignore effectiveness if the target is Steel type and immune to Poison
-			if (!target.runImmunity('Electric')) {
-				if (target.hasType('Ground')) return 0;
-				}
-			},
-			ignoreImmunity: {'Electric': true},
-            secondary: false,
-            target: "normal",
-            type: "Electric",
-            contestType: "Clever",
-        },
 	curse: {
 		inherit: true,
 		desc: "If the user is not a Ghost type, lowers the user's Speed by 1 stage and raises the user's Attack and Defense by 1 stage. If the user is a Ghost type, the user loses 1/2 of its maximum HP, rounded down and even if it would cause fainting, in exchange for the target losing 1/4 of its maximum HP, rounded down, at the end of each turn while it is active. If the target uses Baton Pass, the replacement will continue to be affected. Fails if there is no target or if the target is already affected or has a substitute.",
@@ -1181,46 +1018,6 @@ exports.BattleMovedex = {
 		inherit: true,
 		flags: {},
 	},
-	prismspray: {
-		accuracy: true,
-		basePower: 0,
-		category: "Status",
-		desc: "This move's type is randomly determined",
-        shortDesc: "Varies in type randomly.",        
-		id: "prismspray",
-        name: "Prism Spray",
-        pp: 20,
-        priority: 0,
-		flags: {},
-		onHit: function (target) {
-			let moves = [];
-			for (let i in exports.BattleMovedex) {
-				let move = exports.BattleMovedex[i];
-				if (i !== move.id) continue;
-				if (move.isZ || move.isNonstandard) continue;
-				let noMetronome = {
-					pswater:1, psnormal:1, psgrass:1, psfire:1, pssound:1, psdark:1, psghost:1, pspsychic:1, psfighting:1, pssteel:1, psice:1, psground:1, psrock:1, psgas:1, psbug:1, psflying:1, pselectric:1, psfairy:1, pspoison:1, psdragon:1, 
-				};
-				if (noMetronome[move.id]) {
-					moves.push(move);
-				}
-			}
-			let randomMove = '';
-			if (moves.length) {
-				moves.sort((a, b) => a.num - b.num);
-				randomMove = moves[this.random(moves.length)].id;
-			}
-			if (!randomMove) {
-				return false;
-			}
-			this.useMove(randomMove, target);
-		},
-		secondary: false,
-		target: "self",
-		type: "Normal",
-		contestType: "Cute",
-	},
-		
 	pswater: {
 		accuracy: 100,
 		basePower: 100,
@@ -1684,46 +1481,6 @@ exports.BattleMovedex = {
 		inherit: true,
 		flags: {},
 	},
-	springbuds: {
-	accuracy: 90,
-        basePower: 75,
-        category: "Physical",
-        shortDesc: "has a chance of seeding the foe",
-        id: "springbuds",
-        isViable: true,
-        name: "Spring Buds",
-        pp: 10,
-        priority: 0,
-        flags: {contact: 1, protect: 1, mirror: 1, heal: 1},
-        onTryHit: function (target) {
-            if (target.hasType('Grass')) {
-                this.add('-immune', target, '[msg]');
-                return null;
-            }
-        },
-        secondary: {
-			chance: 10, 
-			volatileStatus: 'leechseed',
-			effect: {
-				onStart: function (target) {
-					this.add('-start', target, 'move: Leech Seed');
-				},
-				onResidualOrder: 8,
-				onResidual: function (pokemon) {
-					let target = this.effectData.source.side.active[pokemon.volatiles['leechseed'].sourcePosition];
-					if (!target || target.fainted || target.hp <= 0) {
-						this.debug('Nothing to leech into'); return;
-					}
-					let damage = this.damage(pokemon.maxhp / 8, pokemon, target);
-					if (damage) {
-						this.heal(damage, target, pokemon);
-					}
-				},
-			},
-		},			
-        target: "normal",
-        type: "Grass",
-	},
 	spite: {
 		inherit: true,
 		flags: {protect: 1, mirror: 1, authentic: 1},
@@ -1887,26 +1644,6 @@ exports.BattleMovedex = {
 		inherit: true,
 		basePower: 50,
 	},
-	voidsphere: {
-        	accuracy: 100,
-        	basePower: 85,
-        	category: "Special",
-        	desc: "This move does neutral damage.",
-        	shortDesc: "Ignores types",
-        	id: "voidsphere",
-        	name: "Void Sphere",
-        	pp: 20,
-        	priority: 0,
-        	flags: {protect: 1, mirror: 1},
-        	onEffectiveness: function (typeMod, type) {
-            		return 0;
-        	},
-			ignoreImmunity: {'Ghost': true},
-        	secondary: false,
-        	target: "normal",
-        	type: "Normal",
-        	contestType: "Clever",
-    	},
 	volttackle: {
 		inherit: true,
 		recoil: [1, 3],
