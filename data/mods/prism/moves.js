@@ -174,25 +174,6 @@ exports.BattleMovedex = {
 		inherit: true,
 		accuracy: 75,
 	},
-	"boil": {
-		accuracy: 100,
-        basePower: 75,
-        category: "Special",
-        desc: "This move is strong against Water types.",
-        shortDesc: "Does more damage to Water types",
-        id: "boil",
-        name: "Boil",
-        pp: 20,
-        priority: 0,
-        flags: {protect: 1, mirror: 1},
-		onEffectiveness(totalTypeMod, target, type) {
-			if (type === 'Water') return 1;
-		},
-        secondary: false,
-        target: "normal",
-        type: "Fire",
-        contestType: "Clever",
-    	},
 	bonerush: {
 		inherit: true,
 		accuracy: 80,
@@ -753,39 +734,6 @@ exports.BattleMovedex = {
 			if (!damage) damage = target.maxhp;
 			this.damage(this.clampIntRange(damage / 2, 1, Math.floor(target.maxhp / 2)), source, source, 'jumpkick');
 		},
-	},
-  lavapool: {
-		accuracy: 80,
-		basePower: 0,
-		category: "Status",
-		desc: "Sets up a hazard on the foe's side of the field, burning each foe that switches in, unless it is a Flying-type Pokemon or has the Ability Levitate. Can be removed if any side uses a Water attack. Safeguard prevents the foe's party from being poisoned on switch-in, but a substitute does not.",
-		shortDesc: "Burns grounded foes on switch-in.",
-		id: "lavapool",
-		isViable: true,
-		name: "Lava Pool",
-		pp: 15,
-		priority: 0,
-		flags: {reflectable: 1, nonsky: 1},
-		sideCondition: 'lavapool',
-		effect: {
-			// this is a side condition
-			onStart: function (side) {
-				this.add('-sidestart', side, 'move: Lava Pool');
-			},
-			onSwitchIn: function (pokemon) {
-				if (!pokemon.isGrounded()) return;
-				if (!pokemon.runStatusImmunity('Burn')) return;
-				if (pokemon.hasType('Fire')) return;
-				pokemon.trySetStatus('brn', pokemon.side.foe.active[0]);
-			},
-			// TODO - Check game for conditions such as; if a fire pokemon is switched in does it remove lava pool like tspikes?
-			// TODO - Add removal of lava pool by defog/rapid spin
-		},
-		secondary: false,
-		target: "foeSide",
-		type: "Fire",
-		zMoveBoost: {spa: 1},
-		contestType: "Clever",
 	},
 	lastresort: {
 		inherit: true,

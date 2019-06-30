@@ -6294,6 +6294,39 @@ let BattleMovedex = {
 		zMovePower: 0,
 		contestType: "Beautiful",
 	},
+	lavapool: {
+		accuracy: 80,
+		basePower: 0,
+		category: "Status",
+		desc: "Sets up a hazard on the foe's side of the field, burning each foe that switches in, unless it is a Flying-type Pokemon or has the Ability Levitate. Can be removed if any side uses a Water attack. Safeguard prevents the foe's party from being poisoned on switch-in, but a substitute does not.",
+		shortDesc: "Burns grounded foes on switch-in.",
+		id: "lavapool",
+		isViable: true,
+		name: "Lava Pool",
+		pp: 15,
+		priority: 0,
+		flags: {reflectable: 1, nonsky: 1},
+		sideCondition: 'lavapool',
+		effect: {
+			// this is a side condition
+			onStart: function (side) {
+				this.add('-sidestart', side, 'move: Lava Pool');
+			},
+			onSwitchIn: function (pokemon) {
+				if (!pokemon.isGrounded()) return;
+				if (!pokemon.runStatusImmunity('Burn')) return;
+				if (pokemon.hasType('Fire')) return;
+				pokemon.trySetStatus('brn', pokemon.side.foe.active[0]);
+			},
+			// TODO - Check game for conditions such as; if a fire pokemon is switched in does it remove lava pool like tspikes?
+			// TODO - Add removal of lava pool by defog/rapid spin
+		},
+		secondary: false,
+		target: "foeSide",
+		type: "Fire",
+		zMoveBoost: {spa: 1},
+		contestType: "Clever",
+	},
 	"boil": {
 		accuracy: 100,
         basePower: 75,
