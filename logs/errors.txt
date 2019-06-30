@@ -1983,3 +1983,332 @@ Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
     at ChildProcess.EventEmitter.emit (domain.js:441:20)
     at finish (internal/child_process.js:805:14)
     at process._tickCallback (internal/process/next_tick.js:61:11)
+
+ReferenceError: pokemon is not defined
+    at Battle.onEnd (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\data\moves.js:64:29)
+    at Battle.singleEvent (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle.js:439:25)
+    at Pokemon.removeVolatile (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\pokemon.js:1532:15)
+    at Battle.residualEvent (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle.js:372:18)
+    at Battle.runAction (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle.js:2655:9)
+    at Battle.go (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle.js:2740:9)
+    at Battle.commitDecisions (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle.js:2818:8)
+    at Battle.choose (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle.js:2775:35)
+    at RoomBattleStream._writeLine (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle-stream.js:95:17)
+    at RoomBattleStream._writeLine (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\server\room-battle.js:1138:18)
+
+Additional information:
+  chunk = >p1 move 2
+  inputLog = 
+>version c5c7ce7da69431a1204b7bbaec46760e3b391375
+>start {"formatid":"gen5prism","seed":[1374,22429,39268,42231]}
+>player p1 {"name":"Petuh_Alt","avatar":"170","team":"Chingling||||finalchance,psychic||,4,,,,|||||"}
+>player p2 {"name":"Petuuuhhh","avatar":"101","team":"Chingling||||finalchance,psychic||,4,,,,|||||"}
+>p1 move psychic
+>p2 move psychic
+>p1 move finalchance
+>p2 move finalchance
+>p1 move psychic
+>p2 move psychic
+>p1 move psychic
+>p2 move psychic
+  log = 
+|player|p1|Petuh_Alt|170
+|player|p2|Petuuuhhh|101
+|teamsize|p1|1
+|teamsize|p2|1
+|gametype|singles
+|gen|5
+|tier|[Gen 5] Prism
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|
+|start
+|switch|p1a: Chingling|Chingling, M|231/231
+|switch|p2a: Chingling|Chingling, F|231/231
+|turn|1
+|
+|move|p2a: Chingling|Psychic|p1a: Chingling
+|-resisted|p1a: Chingling
+|-damage|p1a: Chingling|162/231
+|move|p1a: Chingling|Psychic|p2a: Chingling
+|-resisted|p2a: Chingling
+|-damage|p2a: Chingling|166/231
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Chingling|Final Chance|p2a: Chingling
+|-start|p2a: Chingling|move: Final Chance
+|move|p1a: Chingling|Final Chance|p1a: Chingling
+|-start|p1a: Chingling|move: Final Chance
+|
+|-heal|p1a: Chingling|231/231|[from] Final Chance
+|-heal|p2a: Chingling|231/231|[from] Final Chance
+|upkeep
+|turn|3
+|
+|move|p1a: Chingling|Psychic|p2a: Chingling
+|-resisted|p2a: Chingling
+|-damage|p2a: Chingling|166/231
+|move|p2a: Chingling|Psychic|p1a: Chingling
+|-resisted|p1a: Chingling
+|-damage|p1a: Chingling|164/231
+|
+|-heal|p1a: Chingling|231/231|[from] Final Chance
+|-heal|p2a: Chingling|231/231|[from] Final Chance
+|upkeep
+|turn|4
+|
+|move|p1a: Chingling|Psychic|p2a: Chingling
+|-resisted|p2a: Chingling
+|-damage|p2a: Chingling|172/231
+|move|p2a: Chingling|Psychic|p1a: Chingling
+|-resisted|p1a: Chingling
+|-damage|p1a: Chingling|171/231
+|
+
+
+TypeError: Cannot read property 'maxhp' of undefined
+    at Battle.onEnd (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\data\moves.js:64:37)
+    at Battle.singleEvent (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle.js:439:25)
+    at Pokemon.removeVolatile (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\pokemon.js:1532:15)
+    at Battle.residualEvent (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle.js:372:18)
+    at Battle.runAction (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle.js:2655:9)
+    at Battle.go (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle.js:2740:9)
+    at Battle.commitDecisions (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle.js:2818:8)
+    at Battle.choose (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle.js:2775:35)
+    at RoomBattleStream._writeLine (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\battle-stream.js:95:17)
+    at RoomBattleStream._writeLine (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\server\room-battle.js:1138:18)
+
+Additional information:
+  chunk = >p2 move 2
+  inputLog = 
+>version c5c7ce7da69431a1204b7bbaec46760e3b391375
+>start {"formatid":"gen5prism","seed":[27434,6191,42756,6976]}
+>player p1 {"name":"Petuuuhhh","avatar":"101","team":"Chingling||||finalchance,psychic||,4,,,,|||||"}
+>player p2 {"name":"Petuh_Alt","avatar":"170","team":"Chingling||||finalchance,psychic||,4,,,,|||||"}
+>p1 move psychic
+>p2 move psychic
+>p1 move finalchance
+>p2 move finalchance
+>p1 move psychic
+>p2 move psychic
+>p1 move psychic
+>p2 move psychic
+  log = 
+|player|p1|Petuuuhhh|101
+|player|p2|Petuh_Alt|170
+|teamsize|p1|1
+|teamsize|p2|1
+|gametype|singles
+|gen|5
+|tier|[Gen 5] Prism
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|
+|start
+|switch|p1a: Chingling|Chingling, M|231/231
+|switch|p2a: Chingling|Chingling, M|231/231
+|turn|1
+|
+|move|p2a: Chingling|Psychic|p1a: Chingling
+|-resisted|p1a: Chingling
+|-damage|p1a: Chingling|163/231
+|move|p1a: Chingling|Psychic|p2a: Chingling
+|-resisted|p2a: Chingling
+|-damage|p2a: Chingling|167/231
+|-unboost|p2a: Chingling|spd|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Chingling|Final Chance|p1a: Chingling
+|-start|p1a: Chingling|move: Final Chance
+|move|p2a: Chingling|Final Chance|p2a: Chingling
+|-start|p2a: Chingling|move: Final Chance
+|
+|-heal|p1a: Chingling|231/231|[from] Final Chance
+|-heal|p2a: Chingling|231/231|[from] Final Chance
+|upkeep
+|turn|3
+|
+|move|p1a: Chingling|Psychic|p2a: Chingling
+|-resisted|p2a: Chingling
+|-damage|p2a: Chingling|130/231
+|move|p2a: Chingling|Psychic|p1a: Chingling
+|-resisted|p1a: Chingling
+|-damage|p1a: Chingling|172/231
+|
+|-heal|p1a: Chingling|231/231|[from] Final Chance
+|-heal|p2a: Chingling|231/231|[from] Final Chance
+|upkeep
+|turn|4
+|
+|move|p1a: Chingling|Psychic|p2a: Chingling
+|-resisted|p2a: Chingling
+|-damage|p2a: Chingling|138/231
+|move|p2a: Chingling|Psychic|p1a: Chingling
+|-resisted|p1a: Chingling
+|-damage|p1a: Chingling|167/231
+|
+
+
+C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\data\moves.js:19937
+};
+ ^
+
+SyntaxError: Unexpected token ;
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\data\moves.js:54
+			if (!result) return false;
+			^^
+
+SyntaxError: Unexpected token if
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\data\moves.js:54
+			if (!result) return false;
+			^^
+
+SyntaxError: Unexpected token if
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\data\moves.js:54
+			if (!result) return false;
+			^^
+
+SyntaxError: Unexpected token if
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\data\moves.js:48
+            for (const pokemon of this.getAllActive()) {
+                 ^^^^^
+
+SyntaxError: Unexpected token const
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\data\moves.js:67
+			if (!result) return false;
+			^^
+
+SyntaxError: Unexpected token if
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\data\moves.js:65
+			if (!result) return false;
+			^^
+
+SyntaxError: Unexpected token if
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at StreamProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.lib-dist\process-manager.js:214:16)
+    at ChildProcess.StreamProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.lib-dist\process-manager.js:175:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:776:26)
+    at QueryProcessWrapper.destroy (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.lib-dist\process-manager.js:111:16)
+    at ChildProcess.QueryProcessWrapper.process.on (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.lib-dist\process-manager.js:77:9)
+    at ChildProcess.emit (events.js:189:13)
+    at ChildProcess.EventEmitter.emit (domain.js:441:20)
+    at finish (internal/child_process.js:805:14)
+    at process._tickCallback (internal/process/next_tick.js:61:11)

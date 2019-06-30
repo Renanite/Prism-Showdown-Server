@@ -30,6 +30,47 @@ sound: Has no effect on Pokemon with the Soundproof Ability.
 
 /**@type {{[k: string]: MoveData}} */
 let BattleMovedex = {
+	"finalchance": {
+        num: 275,
+        accuracy: true,
+        basePower: 0,
+        category: "Status",
+        desc: "Anchors the user, restores HP to max at the end of each turn for 3 turns, then forces faint",
+        shortDesc: "Anchors the user, restores HP to max at the end of each turn for 3 turns, then forces faint",
+        id: "finalchance",
+        name: "Final Chance",
+        pp: 20,
+        priority: 0,
+        flags: {snatch: 1, nonsky: 1},
+        volatileStatus: 'finalchance',
+        effect: {
+            duration: 4,
+            onStart: function (pokemon) {
+                this.add('-start', pokemon, 'move: Final Chance');
+            },
+            onResidualOrder: 8,
+            onResidual: function (pokemon) {
+                this.heal(pokemon.maxhp);
+            },
+            onTrapPokemon: function (pokemon) {
+                pokemon.tryTrap();
+            },
+            onDragOut: function (pokemon) {
+                this.add('-activate', pokemon, 'move: Final Chance');
+                return null;
+            },
+            onResidualOrder: 7,
+            onEnd: function (target) {
+                target.faint();
+                this.add('-end', target, 'Final Chance');
+            },
+        },
+        secondary: null,
+        target: "self",
+        type: "???",
+        zMoveBoost: {spd: 1},
+        contestType: "Clever",
+    },
 	"steeleater": {
 		accuracy: 95,
 		basePower: 65,
