@@ -45,7 +45,7 @@ let BattlePokedex = {
 		weightkg: 23.5,
 		color: "Red",
 		eggGroups: ["None"]
-	}
+	},
 	bulbasaur: {
 		num: 1,
 		species: "Bulbasaur",
