@@ -1409,7 +1409,7 @@ let Formats = [
 
 		mod: 'gen2',
 		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber', 'Curse', 'Swords Dance', 'Amnesia', 'Barrier', 'Light Screen', 'Reflect'],
+		banlist: ['Uber', 'Curse', 'Swords Dance', 'Amnesia', 'Barrier', 'Light Screen', 'Reflect', 'Sharpen'],
 	},
 	{
 		name: "[Gen 2] No Legendaries",
