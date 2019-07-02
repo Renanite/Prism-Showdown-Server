@@ -4,7 +4,7 @@
 exports.BattleLearnsets = {
 	bulbasaur: {learnset: {
 		amnesia: ["5M"],
-		ancientpower: ["5M"],
+		ancientpower: ["-1M"],
 		attract: ["5M"],
 		bodyslam: ["5M"],
 		charm: ["5M"],
