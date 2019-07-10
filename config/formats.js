@@ -1368,50 +1368,6 @@ let Formats = [
 		banlist: ['Uber'],
 	},
 	{
-		name: "[Gen 2] Crystal Clear",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3556533/">GSC OU Viability Ranking</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3650478/#post-8133788">GSC Sample Teams</a>`,
-		],
-
-		mod: 'crystalclear',
-		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber'],
-	},
-	{
-		name: "[Gen 2] OU No Snorlax",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3556533/">GSC OU Viability Ranking</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3650478/#post-8133788">GSC Sample Teams</a>`,
-		],
-
-		mod: 'gen2',
-		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber', 'Snorlax'],
-	},
-	{
-		name: "[Gen 2] OU No Setup/Screens",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3556533/">GSC OU Viability Ranking</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3650478/#post-8133788">GSC Sample Teams</a>`,
-		],
-
-		mod: 'gen2',
-		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber', 'Curse', 'Swords Dance', 'Amnesia', 'Barrier', 'Light Screen', 'Reflect', 'Sharpen', 'Defense Curl', 'Belly Drum'],
-	},
-	{
-		name: "[Gen 2] No Legendaries",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3556533/">GSC OU Viability Ranking</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3650478/#post-8133788">GSC Sample Teams</a>`,
-		],
-
-		mod: 'gen2',
-		ruleset: ['Pokemon', 'Standard'],
-		banlist: ['Uber', 'Zapdos', 'Articuno', 'Moltres', 'Suicune', 'Entei', 'Raikou'],
-	},
-	{
 		name: "[Gen 1] OU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3572352/">RBY OU Viability Ranking</a>`,
