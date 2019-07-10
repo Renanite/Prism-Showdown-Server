@@ -2312,3 +2312,79 @@ Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
     at ChildProcess.EventEmitter.emit (domain.js:441:20)
     at finish (internal/child_process.js:805:14)
     at process._tickCallback (internal/process/next_tick.js:61:11)
+
+C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\data\mods\scratchmons\learnsets.js:7
+};
+^
+
+SyntaxError: Unexpected token }
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+Additional information:
+  formatid = gen7scratchmonsanythinggoes
+  team = Shakvern-Mega||lifeorb|deltastream|hurricane,earthpower,calmmind,fireblast|Timid|,,4,252,,252||,0,,,,|||
+
+
+C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\data\mods\scratchmons\pokedex.js:17
+};
+^
+
+SyntaxError: Unexpected token }
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+
+Additional information:
+  formatid = gen7scratchmonsanythinggoes
+  team = Shakvern-Mega||lifeorb|deltastream|hurricane,earthpower,calmmind,fireblast|Timid|,,4,252,,252||,0,,,,|||
+
+
+TypeError: Cannot read property 'tier' of undefined
+    at ModdedDex.getTemplate (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\dex.js:401:72)
+    at Validator.validateSet (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\team-validator.js:112:22)
+    at Validator.baseValidateTeam (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\team-validator.js:66:65)
+    at Validator.validateTeam (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\team-validator.js:27:15)
+    at QueryProcessManager [as _query] (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\server\team-validator-async.js:49:38)
+    at process.on (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.lib-dist\process-manager.js:341:32)
+    at process.emit (events.js:189:13)
+    at process.EventEmitter.emit (domain.js:441:20)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+Additional information:
+  formatid = gen7scratchmonsanythinggoes
+  team = Shakvern-Mega||lifeorb|deltastream|hurricane,earthpower,calmmind,fireblast|Timid|,,4,252,,252||,0,,,,|||
+
+
+TypeError: Cannot read property 'tier' of undefined
+    at ModdedDex.getTemplate (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\dex.js:401:72)
+    at Validator.validateSet (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\team-validator.js:112:22)
+    at Validator.baseValidateTeam (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\team-validator.js:66:65)
+    at Validator.validateTeam (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.sim-dist\team-validator.js:27:15)
+    at QueryProcessManager [as _query] (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\server\team-validator-async.js:49:38)
+    at process.on (C:\Users\Swanton\Downloads\Pet-Mod-Palace-Server\.lib-dist\process-manager.js:341:32)
+    at process.emit (events.js:189:13)
+    at process.EventEmitter.emit (domain.js:441:20)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+Additional information:
+  formatid = gen7scratchmonsanythinggoes
+  team = Shakvern-Mega||lifeorb|deltastream|hurricane,earthpower,calmmind,fireblast|Timid|,,4,252,,252||,0,,,,|||
+
